@@ -56,13 +56,13 @@ const FoodDetail = React.forwardRef(({ foodId }, ref) => {
       </div>
       <div className={styles.ingredientsSection}>
         <h2 className={styles.sectionTitle}>Ingredients</h2>
-        <ul className={styles.ingredientsList}>
+        <div className={styles.ingredientsList}>
           {food.extendedIngredients?.map((item) => (
-            <li key={item.id} className={styles.ingredientsItems}>
+            <div key={item.id} className={styles.ingredientsItems}>
               {item.name}
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
