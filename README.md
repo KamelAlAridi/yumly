@@ -8,9 +8,7 @@ A sleek and modern food app built with React and Vite. Yumly lets users explore 
 
 - ⚡ Built with [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) for blazing-fast performance
 - 📱 Responsive design for mobile and desktop
-- 🔍 Browse or search for food items (optional feature if implemented)
-- ❤️ Favorite or bookmark meals (optional feature if implemented)
-- 🔄 Easy to extend with APIs or a backend
+- 🔍 Browse or search for food items
 
 ---
 
@@ -19,7 +17,7 @@ A sleek and modern food app built with React and Vite. Yumly lets users explore 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [CSS Modules / Tailwind / SCSS] _(update if needed)_
+- [CSS Modules]
 
 ---
 
@@ -30,4 +28,6 @@ A sleek and modern food app built with React and Vite. Yumly lets users explore 
 ```bash
 git clone https://github.com/KamelAlAridi/yumly.git
 cd yumly
+npm install
+npm run dev
 ```
