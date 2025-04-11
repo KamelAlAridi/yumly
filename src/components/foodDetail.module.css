@@ -1,0 +1,103 @@
+/* Main Container */
+.foodDetailContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Section */
+.foodHeader {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.foodTitle {
+  color: #333;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.metaInfo {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ff6b6b;
+  font-size: 1.1rem;
+}
+
+.instructionsSection {
+  margin-top: 2rem;
+}
+
+.sectionTitle {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ff6b6b;
+  display: inline-block;
+}
+
+.instructionsList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.instructionStep {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  background: #fff9f9;
+  border-radius: 8px;
+  line-height: 1.6;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.instructionStep:hover {
+  transform: translateX(5px);
+  box-shadow: 2px 0 0 #ff6b6b;
+}
+
+.stepNumber {
+  display: inline-block;
+  margin-right: 0.8rem;
+  font-weight: bold;
+  color: #ff6b6b;
+  min-width: 60px;
+}
+
+.ingredientsSection {
+  margin-top: 2rem;
+}
+
+.ingredientsList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredientsItems {
+  margin-bottom: 1.5rem;
+  font-size: larger;
+  padding: 1.2rem;
+  background: #fff9f9;
+  border-radius: 8px;
+  line-height: 1.6;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.ingredientsItems:hover {
+  transform: translateX(5px);
+  box-shadow: 2px 0 0 #ff6b6b;
+}

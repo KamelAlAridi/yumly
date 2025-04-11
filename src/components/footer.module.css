@@ -1,0 +1,62 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  background: #fff9f9;
+  border-top: 1px solid #ffecec;
+  font-family: "Poppins", sans-serif;
+  margin-top: auto;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.quote {
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  border-left: 3px solid #ff6b6b;
+  background: #fff;
+  border-radius: 0 8px 8px 0;
+}
+
+.quote p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.author {
+  margin-top: 0.5rem !important;
+  color: #888 !important;
+  font-size: 0.85rem !important;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 1.5rem 0 0;
+}
+
+.emoji {
+  display: inline-block;
+  margin: 0 2px;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+/* Bounce animation for emojis */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
