@@ -1,12 +1,33 @@
-# React + Vite
+# 🍽️ Yumly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern food app built with React and Vite. Yumly lets users explore delicious meals with a fast, responsive UI — perfect for food lovers and recipe explorers!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Built with [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) for blazing-fast performance
+- 📱 Responsive design for mobile and desktop
+- 🔍 Browse or search for food items (optional feature if implemented)
+- ❤️ Favorite or bookmark meals (optional feature if implemented)
+- 🔄 Easy to extend with APIs or a backend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS Modules / Tailwind / SCSS] _(update if needed)_
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/KamelAlAridi/yumly.git
+cd yumly
+```
