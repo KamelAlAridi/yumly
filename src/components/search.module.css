@@ -11,7 +11,7 @@
   border: none;
   border-bottom: 1px solid #e3e4dc;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 @media (max-width: 600px) {
@@ -22,6 +22,6 @@
     border: none;
     border-bottom: 1px solid #e3e4dc;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
   }
 }
